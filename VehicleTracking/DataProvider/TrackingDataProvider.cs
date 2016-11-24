@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using ThinkGeo.MapSuite.Core;
+using ThinkGeo.MapSuite.Shapes;
 
 namespace ThinkGeo.MapSuite.VehicleTracking
 {

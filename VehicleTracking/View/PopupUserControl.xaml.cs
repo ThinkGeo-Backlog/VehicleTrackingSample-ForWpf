@@ -1,9 +1,8 @@
-﻿using System;
-using System.Globalization;
+﻿using System.Globalization;
 using System.Windows;
 using System.Windows.Controls;
-using ThinkGeo.MapSuite.Core;
-using ThinkGeo.MapSuite.WpfDesktopEdition;
+using ThinkGeo.MapSuite.Shapes;
+using ThinkGeo.MapSuite.Wpf;
 
 namespace ThinkGeo.MapSuite.VehicleTracking
 {
@@ -32,7 +31,7 @@ namespace ThinkGeo.MapSuite.VehicleTracking
             double x, y;
             if (double.TryParse(longitude, out x) && double.TryParse(latitude, out y))
             {
-                ManagedProj4Projection proj4 = new ManagedProj4Projection();
+                Proj4Projection proj4 = new Proj4Projection();
                 proj4.InternalProjectionParametersString = Proj4Projection.GetDecimalDegreesParametersString();
                 proj4.ExternalProjectionParametersString = Proj4Projection.GetGoogleMapParametersString();
                 proj4.Open();

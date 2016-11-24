@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
-using ThinkGeo.MapSuite.WpfDesktopEdition;
+using ThinkGeo.MapSuite.Wpf;
 
 namespace ThinkGeo.MapSuite.VehicleTracking
 {

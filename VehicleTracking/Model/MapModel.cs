@@ -4,9 +4,12 @@ using System.IO;
 using System.Linq;
 using System.Windows;
 using System.Windows.Input;
-using ThinkGeo.MapSuite.Core;
+using ThinkGeo.MapSuite.Drawing;
+using ThinkGeo.MapSuite.Layers;
+using ThinkGeo.MapSuite.Shapes;
+using ThinkGeo.MapSuite.Styles;
 using ThinkGeo.MapSuite.VehicleTracking.Properties;
-using ThinkGeo.MapSuite.WpfDesktopEdition;
+using ThinkGeo.MapSuite.Wpf;
 
 namespace ThinkGeo.MapSuite.VehicleTracking
 {

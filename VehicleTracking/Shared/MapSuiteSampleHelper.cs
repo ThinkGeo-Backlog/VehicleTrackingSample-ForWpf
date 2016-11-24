@@ -6,7 +6,8 @@ using System.IO;
 using System.Net;
 using System.Windows;
 using System.Xml;
-using ThinkGeo.MapSuite.Core;
+using ThinkGeo.MapSuite.Shapes;
+using ThinkGeo.MapSuite.Wpf;
 
 namespace ThinkGeo.MapSuite.VehicleTracking
 {

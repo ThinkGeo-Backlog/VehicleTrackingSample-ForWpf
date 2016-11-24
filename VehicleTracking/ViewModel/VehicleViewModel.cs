@@ -1,6 +1,6 @@
 ﻿using System.Globalization;
 using System.Linq;
-using ThinkGeo.MapSuite.Core;
+using ThinkGeo.MapSuite.Layers;
 
 namespace ThinkGeo.MapSuite.VehicleTracking
 {

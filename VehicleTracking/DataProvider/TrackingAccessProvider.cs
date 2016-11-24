@@ -5,7 +5,7 @@ using System.Data;
 using System.Data.OleDb;
 using System.Globalization;
 using System.Text;
-using ThinkGeo.MapSuite.Core;
+using ThinkGeo.MapSuite.Shapes;
 
 namespace ThinkGeo.MapSuite.VehicleTracking
 {

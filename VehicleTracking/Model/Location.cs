@@ -1,5 +1,5 @@
 ﻿using System;
-using ThinkGeo.MapSuite.Core;
+using ThinkGeo.MapSuite.Shapes;
 
 namespace ThinkGeo.MapSuite.VehicleTracking
 {
