@@ -6,6 +6,7 @@ using System.IO;
 using System.Net;
 using System.Windows;
 using System.Xml;
+using ThinkGeo.MapSuite.Layers;
 using ThinkGeo.MapSuite.Shapes;
 using ThinkGeo.MapSuite.Wpf;
 

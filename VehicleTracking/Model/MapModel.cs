@@ -186,7 +186,7 @@ namespace ThinkGeo.MapSuite.VehicleTracking
             bingMapsAerialOverlay.Name = Resources.BingMapsAerialMapName;
             bingMapsAerialOverlay.TileHeight = 512;
             bingMapsAerialOverlay.TileWidth = 512;
-            bingMapsAerialOverlay.MapType = BingMapsMapType.Aerial;
+            bingMapsAerialOverlay.MapType = Wpf.BingMapsMapType.Aerial;
             bingMapsAerialOverlay.IsVisible = false;
             bingMapsAerialOverlay.TileCache = new FileBitmapTileCache(cacheFolder, "BingMapsAerial");
             mapControl.Overlays.Add(Resources.BingAerialKey, bingMapsAerialOverlay);
@@ -195,7 +195,7 @@ namespace ThinkGeo.MapSuite.VehicleTracking
             bingMapsRoadOverlay.Name = Resources.BingMapsRoadMapName;
             bingMapsRoadOverlay.TileHeight = 512;
             bingMapsRoadOverlay.TileWidth = 512;
-            bingMapsRoadOverlay.MapType = BingMapsMapType.Road;
+            bingMapsRoadOverlay.MapType = Wpf.BingMapsMapType.Road;
             bingMapsRoadOverlay.IsVisible = false;
             bingMapsRoadOverlay.TileCache = new FileBitmapTileCache(cacheFolder, "BingMapsRoad");
             mapControl.Overlays.Add(Resources.BingRoadKey, bingMapsRoadOverlay);
