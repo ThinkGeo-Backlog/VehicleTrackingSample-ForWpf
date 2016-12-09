@@ -63,7 +63,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.SqlServer.Types, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
-      <HintPath>..\packages\MapSuiteDependency-MicrosoftSqlServerTypes.10.0.0\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+      <HintPath>..\packages\MapSuiteDependency-MicrosoftSqlServerTypes.10.0.0\lib\net45\Microsoft.SqlServer.Types.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="NetTopologySuite, Version=1.14.0.0, Culture=neutral, PublicKeyToken=f580a05016ebada1, processorArchitecture=MSIL">
@@ -83,15 +83,15 @@
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
     </Reference>
     <Reference Include="ThinkGeo.MapSuite, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\ThinkGeo.MapSuite.10.0.340.1\lib\net40\ThinkGeo.MapSuite.dll</HintPath>
+      <HintPath>..\packages\ThinkGeo.MapSuite.10.0.344.6\lib\net45\ThinkGeo.MapSuite.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="ThinkGeo.MapSuite.Layers.Adornments, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\ThinkGeo.MapSuite.Layers.Adornments.10.0.340.1\lib\net40\ThinkGeo.MapSuite.Layers.Adornments.dll</HintPath>
+      <HintPath>..\packages\ThinkGeo.MapSuite.Layers.Adornments.10.0.344.6\lib\net45\ThinkGeo.MapSuite.Layers.Adornments.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="ThinkGeo.MapSuite.Wpf, Version=10.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\MapSuiteDesktopForWpf-BareBone.10.0.340.1\lib\net40\ThinkGeo.MapSuite.Wpf.dll</HintPath>
+      <HintPath>..\packages\MapSuiteDesktopForWpf-BareBone.10.0.344.6\lib\net45\ThinkGeo.MapSuite.Wpf.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="WindowsBase" />
